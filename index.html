@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>域名更换通知</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>域名更换通知</h1>
+    </header>
+    <main>
+      <p>欢迎访问 seayay.icu！</p>
+      <p>由于旧域名太贵了，所以我把域名改成了 <strong>seayay.top</strong>！</p>
+      <p>请更新您的书签和友链到新域名，为此给您带来的任何不便表示歉意！</p>
+      <button onclick="window.location.href='http://seayay.top'">前往新域名</button>
+<script>
+  window.onload = function() {
+    const button = document.querySelector('button');
+    button.addEventListener('click', function() {
+      alert('您即将前往新域名 seayay.top');
+    });
+  }
+</script>
+    </main>
+    <footer>
+      <p>© 2022 - 2023 Seayay. All rights reserved. Design with Cursor.</p>
+    </footer>
+  </body>
+</html>
